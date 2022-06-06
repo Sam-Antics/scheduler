@@ -6,13 +6,10 @@
 var currentDay = moment().format("dddd LL");
 $("#currentDay").append(currentDay);
 
-// set up time blocks for standard business hours
-
 // each time block is color-coded to indicate past, present, or future
 
 // clicking into the time block opens textarea
 
-// save button for each time block
-
-// save to localStorage for persistent data
+// clicking save button for each time block
+// saves to localStorage for persistent data
 

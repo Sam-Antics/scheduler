@@ -55,10 +55,6 @@ textarea {
   width: 100px;
 }
 
-th.hour, .table td {
-  padding: 0%;
-}
-
 .past {
   background-color: var(--senary-clr);
   color: var(--primary-clr);

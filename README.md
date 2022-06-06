@@ -14,7 +14,7 @@ The client has requested the following features:
 ## Deployed Project
 https://sam-antics.github.io/work-day-scheduler/
 
-![Deployed website](#)
+![Deployed website](./assets/screenshot.png)
 
 ## Built With
 * HTML

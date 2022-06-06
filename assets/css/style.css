@@ -1,9 +1,10 @@
 :root {
   --primary-clr: rgb(159, 161, 163);
-  --secondary-clr: rgb(179, 49, 75);
+  --secondary-clr: rgb(212, 15, 54);
   --tertiary-clr: rgb(7, 107, 92);
   --quaternary-clr: rgb(75, 79, 82);
   --quinary-clr: rgb(98, 205, 160);
+  --senary-clr: rgb(162, 33, 11);
 }
 
 body {
@@ -18,8 +19,8 @@ textarea {
   border: none;
   resize: none;
   color: var(--quaternary-clr);
-  border-left: 1px solid black;
-  padding: 10px;
+  border-left: 1px solid var(--quaternary-clr);
+  padding: 0;
 }
 
 .jumbotron {
@@ -27,7 +28,7 @@ textarea {
   background-color: transparent;
   color: black;
   border-radius: 0;
-  border-bottom: 10px solid black;
+  border-bottom: 5px solid black;
 }
 
 .description {
@@ -37,22 +38,29 @@ textarea {
 .time-block {
   text-align: center;
   border-radius: 15px;
+  padding-bottom: 5px;
 }
 
 .row {
   white-space: pre-wrap;
   height: 80px;
-  border-top: 1px solid white;;
+  border-top: 1px solid var(--quinary-clr);
 }
 
 .hour {
-  background-color: white;
-  color: black;
-  border-top: 1px dashed black;
+  background-color: var(--quinary-clr);
+  color: var(--quaternary-clr);
+  border-top: 1px dashed var(--quaternary-clr);
+  height: 95px;
+  width: 100px;
+}
+
+th.hour, .table td {
+  padding: 0%;
 }
 
 .past {
-  background-color: var(--quinary-clr);
+  background-color: var(--senary-clr);
   color: var(--primary-clr);
 }
 
@@ -67,14 +75,15 @@ textarea {
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  border: 1px solid var(--quaternary-clr);
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: var(--quaternary-clr);
-  color: var(--primary-clr);
+  background-color: var(--quinary-clr);
+  color: var(--quaternary-clr);
 }
 
 .saveBtn i:hover {
   font-size: 20px;
+  color: var(--primary-clr);
   transition: all .3s ease-in-out;
 }

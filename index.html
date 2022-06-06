@@ -4,10 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- Client original link to Bootstrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
+    <!-- Client original link to fonts -->
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -18,6 +20,7 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <!-- Link to local Styles -->
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
@@ -28,23 +31,86 @@
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
     </header>
-    <div class="container mt-5 mb-5">
+    <div class="container">
 
       <!-- Timeblocks go here -->
-      <div class="row mt-1">
-        <div class="col-1 border-top border-bottom text-right pt-1 dayplannerHour" value="9">
-          9AM
-        </div>
-        <div class="col-10 border px-0">
-          <textarea></textarea>
-        </div>
-        <div class="col-1 pl-0 pr-1">
-          <button class="btn btn-block btn-info rounded-right pb-4 text-center">
-            <i class="fas fa-save pt-3"></i>
-          </button>
-        </div>
+      <div class="container time-block">
+        <table class="table">
+          <tr class="row">
+            <th class="hour"><br>08:00 AM</th>
+            <td><textarea cols="100" rows="5" class="description"></textarea></td>
+            <td><button class="saveBtn">
+              <i class="far fa-save"></i>
+            </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>09:00 AM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>10:00 AM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>11:00 AM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>12:00 AM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>01:00 PM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>02:00 PM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>03:00 PM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>04:00 PM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+          <tr class="row">
+            <th class="hour"><br>05:00 PM</th>
+          <td><textarea cols="100" rows="5" class="description"></textarea></td>
+          <td><button class="saveBtn">
+            <i class="far fa-save"></i>
+          </button></td>
+          </tr>
+        </table>
       </div>
     </div>
+
+    <footer>&copy;Design samAntics 2022</footer>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>

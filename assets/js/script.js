@@ -1,6 +1,6 @@
 /****************************/
 /***PSEUDOCODE FOR PROJECT***/
-/***************************/
+/****************************/
 
 // When the planner is opened, the current day displays at the top of the page
 var currentDay = moment().format("dddd LL");

@@ -34,8 +34,6 @@ $(".saveBtn").on("click", function() {
   // parse and loop over the time blocks
   $(".time-block").each(function() {
       let timeBlock = parseInt($(this).attr("id").split("hour")[1]);
-      console.log(timeBlock, currentTime);
-  
 
   // check current time against past and future; set classes
   if (timeBlock < currentTime) {

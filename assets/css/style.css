@@ -26,10 +26,10 @@ textarea {
 
 .jumbotron {
   text-align: center;
-  background-color: transparent;
-  color: black;
+  background-color: var(--quinary-clr);
+  color: var(--quaternary-clr);
   border-radius: 0;
-  border-bottom: 5px solid black;
+  border-bottom: 5px solid var(--quaternary-clr);
 }
 
 .description {

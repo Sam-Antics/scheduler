@@ -18,9 +18,10 @@ textarea {
   background: transparent;
   border: none;
   resize: none;
-  color: var(--quaternary-clr);
+  color: black;
   border-left: 1px solid var(--quaternary-clr);
-  padding: 0;
+  padding: 15px;
+  height: 100%;
 }
 
 .jumbotron {
@@ -43,7 +44,7 @@ textarea {
 
 .row {
   white-space: pre-wrap;
-  height: 80px;
+  height: 95px;
   border-top: 1px solid var(--quinary-clr);
 }
 
@@ -67,7 +68,7 @@ textarea {
 
 .future {
   background-color: var(--tertiary-clr);
-  color: var(--primary-clr);
+  color: var(--quaternary-clr);
 }
 
 .saveBtn {

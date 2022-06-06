@@ -12,7 +12,7 @@ The client has requested the following features:
 * When the user refreshes the page, the saved events persist in localStorage.
 
 ## Deployed Project
-
+https://sam-antics.github.io/work-day-scheduler/
 
 ![Deployed website](#)
 

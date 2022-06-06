@@ -33,6 +33,7 @@ textarea {
 }
 
 .description {
+  color: var(--primary-clr);
   white-space: pre-wrap;
 }
 

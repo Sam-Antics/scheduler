@@ -22,6 +22,7 @@ https://sam-antics.github.io/work-day-scheduler/
 * JavaScript
 * jQuery
 * Bootstrap
+* Moment.js
 
 
 ## Author

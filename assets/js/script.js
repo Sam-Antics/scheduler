@@ -1,5 +1,5 @@
 // When the planner is opened, the current day displays at the top of the page
-let currentDay = moment().format("dddd LL, h:mm:ss a");
+let currentDay = moment().format("dddd LL");
 $("#currentDay").append(currentDay);
 
 // GLOBAL VARIABLES
